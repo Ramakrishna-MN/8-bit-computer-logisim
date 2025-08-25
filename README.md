@@ -5,7 +5,7 @@ It demonstrates the fundamentals of computer architecture such as registers, ALU
 
 The computer drives three 8-segment displays as outputs using dedicated RAM modules, while a fourth RAM module acts as the control unit.
  
-![Model](screenshots/CPU.png)
+![Model](Screenshots/CPU.png)
 
 ## ⚡ Features
 
@@ -59,8 +59,11 @@ Open the circuit file (8_bit_cpu.circ or main.circ)
 **Note**:Open with Logisim evolution app only and directly open .circ file 
 
 Load instructions into the output RAM and Control Unit RAM
-![Load respective RAM's as mentioned for output here](screenshots/Output%20display%20in%20decimal.png)
-![Load Control unit RAM here](screenshots/Control_unit%20of%20cpu.png)
+
+![Load respective RAM's as mentioned for output here](Screenshots/Output%20display%20in%20decimal.png)
+
+![Load Control unit RAM here](Screenshots/Control_unit%20of%20cpu.png)
+
 Run step-by-step or in continuous mode to see instruction execution
 
 ## 🖊️ How to Program the Computer
@@ -112,7 +115,7 @@ Tick the Clock to store
 | 0010    | OUT         | 11100000 | Output result           |
 | 0011    | HLT         | 11110000 | Halt execution          |
 
-![Sample loded displays in hexadecimam here](screenshots/Sample%20program.png)
+![Sample loded displays in hexadecimam here](Screenshots/Sample%20program.png)
 
 **Step 6: Run the Program**
 
@@ -124,7 +127,7 @@ Watch the Accumulator and Output Display update with results 🎉
 
 📸 Example: Above program outputs 15 on the display
 
-![This is where you get output](screenshots/Sample%20output.png)
+![This is where you get output](Screenshots/Sample%20output.png)
 
 👉 That’s how you “code” for your CPU — by writing in assembly, converting to machine code, then loading it into RAM for execution 🚀
 
