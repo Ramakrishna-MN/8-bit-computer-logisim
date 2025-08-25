@@ -111,10 +111,10 @@ Tick the Clock to store
 | Address | Instruction | Binary   | Explanation             |
 | ------- | ----------- | -------- | ----------------------- |
 | 0000    | LDI 5       | 01010101 | Load 5 into Accumulator |
-| 0001    | ADD 10      | 00011010 | Add 10                  |
+| 0001    | ADD 15      | 00011010 | Add memory 15           |
 | 0010    | OUT         | 11100000 | Output result           |
 | 0011    | HLT         | 11110000 | Halt execution          |
-
+| 1110    | 10          | 00001010 | Store 10                |
 ![Sample loded displays in hexadecimam here](Screenshots/Sample%20program.png)
 
 **Step 6: Run the Program**
