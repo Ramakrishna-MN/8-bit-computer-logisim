@@ -61,8 +61,10 @@ Open the circuit file (8_bit_cpu.circ or main.circ)
 Load instructions into the output RAM and Control Unit RAM
 
 ![Load respective RAM's as mentioned for output here](Screenshots/Output%20display%20in%20decimal.png)
+Load respective RAM's as mentioned for output here
 
 ![Load Control unit RAM here](Screenshots/Control_unit%20of%20cpu.png)
+Load Control unit RAM here
 
 Run step-by-step or in continuous mode to see instruction execution
 
@@ -115,6 +117,7 @@ Tick the Clock to store
 | 0010    | OUT         | 11100000 | Output result           |
 | 0011    | HLT         | 11110000 | Halt execution          |
 | 1110    | 10          | 00001010 | Store 10                |
+
 ![Sample loded displays in hexadecimam here](Screenshots/Sample%20program.png)
 
 **Step 6: Run the Program**
